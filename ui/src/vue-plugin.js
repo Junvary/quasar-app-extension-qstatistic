@@ -1,7 +1,7 @@
-import QStatistic from './components/QStatistic.vue'
+import QStatistic from './components/QStatistic'
 
-
-const version = __UI_VERSION__
+import pkg from '../package.json'
+const { version } = pkg
 
 function install(app) {
   app.component(QStatistic.name, QStatistic)
