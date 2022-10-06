@@ -1,22 +1,30 @@
 {
-  "name": "quasar-app-extension-qstatistic",
-  "version": "0.0.1",
-  "description": "qstatistic",
-  "author": "junvary <junvary@foxmail.com>",
-  "license": "MIT",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": "",
-  "homepage": "",
-  "dependencies": {
-    "quasar-ui-qstatistic": "latest"
-  },
-  "engines": {
-    "node": ">= 8.9.0",
-    "npm": ">= 5.6.0",
-    "yarn": ">= 1.6.0"
-  }
+    "name": "quasar-app-extension-qstatistic",
+    "version": "0.0.1",
+    "description": "QStatistic allows you to display data statistically.",
+    "author": "junvary <junvary@foxmail.com>",
+    "license": "MIT",
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Junvary/quasar-app-extension-qstatistic.git"
+    },
+    "bugs": "https://github.com/Junvary/quasar-app-extension-qstatistic/issues",
+    "homepage": "https://github.com/Junvary/quasar-app-extension-qstatistic",
+    "keywords": [
+        "quasar",
+        "quasarframework",
+        "app",
+        "app extension",
+        "extension",
+        "statistic"
+    ],
+    "dependencies": {
+        "quasar-ui-qstatistic": "latest"
+    },
+    "engines": {
+        "node": ">= 8.9.0",
+        "npm": ">= 5.6.0",
+        "yarn": ">= 1.6.0"
+    }
 }

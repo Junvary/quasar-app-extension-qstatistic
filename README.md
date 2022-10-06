@@ -21,4 +21,4 @@ quasar ext remove qstatistic
 ```
 
 # License
-MIT (c) junvary <junvary@foxmail.com>
+MIT
