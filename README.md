@@ -1,7 +1,5 @@
 # Quasar App Extension qstatistic
 
-> QHierarchy allows you to display data in hierarchy structure.
-
 Compatible with Quasar UI v2 and Vue 3.
 
 # Structure
