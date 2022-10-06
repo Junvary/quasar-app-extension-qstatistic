@@ -1,5 +1,5 @@
 <template>
-    <q-card :flat="bordered">
+    <q-card :flat="!bordered">
         <q-card-section :class="cardColumn">
             <div class="text-h8 text-grey">
                 {{ label }}
