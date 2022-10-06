@@ -7,8 +7,7 @@
 
 
 # Component QStatistic
-> Short description of the component
-
+> QStatistic allows you to display data statistically.
 
 
 
