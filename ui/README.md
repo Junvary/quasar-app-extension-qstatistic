@@ -18,7 +18,7 @@
 ## Quasar CLI project
 
 
-Install the [App Extension](../app-extension).
+Install the [App Extension](https://www.npmjs.com/package/quasar-app-extension-qstatistic).
 
 **OR**:
 
