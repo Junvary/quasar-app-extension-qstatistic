@@ -1,4 +1,4 @@
-import QStatistic from './components/QStatistic'
+import QStatistic from './components/QStatistic.vue'
 
 import pkg from '../package.json'
 const { version } = pkg
