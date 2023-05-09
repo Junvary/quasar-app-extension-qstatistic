@@ -9,9 +9,10 @@
 function extendConf(conf) {
   // register our boot file
   conf.boot.push('~quasar-app-extension-qstatistic/src/boot/register.js')
-
-  // make sure app extension files & ui package gets transpiled
-  conf.build.transpileDependencies.push(/quasar-app-extension-qstatistic[\\/]src/)
+  if (api.hasVite !== true) {
+    // make sure app extension files & ui package gets transpiled
+    conf.build.transpileDependencies.push(/quasar-app-extension-qstatistic[\\/]src/)
+  }
 }
 
 module.exports = function (api) {
