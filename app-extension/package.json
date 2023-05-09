@@ -1,6 +1,6 @@
 {
     "name": "quasar-app-extension-qstatistic",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "QStatistic allows you to display data statistically.",
     "author": "junvary <junvary@foxmail.com>",
     "license": "MIT",
