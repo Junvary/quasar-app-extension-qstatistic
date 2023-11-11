@@ -1,12 +1,12 @@
 <template>
     <q-card :flat="!bordered">
         <q-card-section :class="cardColumn">
-            <div class="text-h8 text-grey">
-                {{ label }}
+            <div :class="boldLabel ? 'text-h5 text-bold' : 'text-h8 text-grey'">
+                <div :style="labelStyle">
+                    {{ label }}
+                </div>
             </div>
-            <div class="text-h5 row items-center">
-                <slot />
-            </div>
+            <slot />
         </q-card-section>
     </q-card>
 </template>
@@ -32,6 +32,16 @@ export default defineComponent({
             required: false,
             default: false
         },
+        boldLabel: {
+            type: Boolean,
+            required: false,
+            default: false
+        },
+        labelStyle: {
+            type: Object,
+            required: false,
+            default: () => { }
+        }
     },
     computed: {
         cardColumn() {
