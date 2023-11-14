@@ -10,7 +10,7 @@
     "dev:ios": "quasar dev -m ios",
     "dev:android": "quasar dev -m android",
     "dev:electron": "quasar dev -m electron",
-    "build": "node build/index.js"
+    "build": "quasar build"
   },
   "browserslist": [
     "last 10 Chrome versions",
