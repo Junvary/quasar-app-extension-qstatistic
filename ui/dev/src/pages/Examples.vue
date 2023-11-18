@@ -48,7 +48,4 @@ const gradualColor = `linear-gradient(to bottom right, #ec4786, #b955a4`
 </script>
 
 <style lang="sass" scoped>
-.directive-target
-  width: 50px
-  height: 50px
 </style>
