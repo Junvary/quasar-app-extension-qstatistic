@@ -1,10 +1,10 @@
 # Component QStatistic
 
-[![npm](https://img.shields.io/npm/v/quasar-app-extension-qstatistic.svg?label=quasar-app-extension-qstatistic)](https://www.npmjs.com/package/quasar-app-extension-qstatistic)
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qstatistic.svg)](https://www.npmjs.com/package/quasar-app-extension-qstatistic)
+[![npm](https://img.shields.io/npm/v/@junvary/quasar-app-extension-qstatistic.svg?label=@junvary/quasar-app-extension-qstatistic)](https://www.npmjs.com/package/@junvary/quasar-app-extension-qstatistic)
+[![npm](https://img.shields.io/npm/dt/@junvary/quasar-app-extension-qstatistic.svg)](https://www.npmjs.com/package/@junvary/quasar-app-extension-qstatistic)
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-qstatistic.svg?label=quasar-ui-qstatistic)](https://www.npmjs.com/package/quasar-ui-qstatistic)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-qstatistic.svg)](https://www.npmjs.com/package/quasar-ui-qstatistic)
+[![npm](https://img.shields.io/npm/v/@junvary/quasar-ui-qstatistic.svg?label=@junvary/quasar-ui-qstatistic)](https://www.npmjs.com/package/@junvary/quasar-ui-qstatistic)
+[![npm](https://img.shields.io/npm/dt/@junvary/quasar-ui-qstatistic.svg)](https://www.npmjs.com/package/@junvary/quasar-ui-qstatistic)
 **Compatible with Quasar UI v2 and Vue 3**.
 
 
@@ -18,7 +18,7 @@
 ## Quasar CLI project
 
 
-Install the [App Extension](https://www.npmjs.com/package/quasar-app-extension-qstatistic).
+Install the [App Extension](https://www.npmjs.com/package/@junvary/quasar-app-extension-qstatistic).
 
 **OR**:
 
@@ -27,8 +27,8 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-qstatistic'
-import 'quasar-ui-qstatistic/dist/index.css'
+import Plugin from '@junvary/quasar-ui-qstatistic'
+import '@junvary/quasar-ui-qstatistic/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -36,10 +36,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-qstatistic/dist/index.css"></style>
+<style src="@junvary/quasar-ui-qstatistic/dist/index.css"></style>
 
 <script>
-import { Component as QStatistic } from 'quasar-ui-qstatistic'
+import { Component as QStatistic } from '@junvary/quasar-ui-qstatistic'
 
 export default {
   
@@ -56,8 +56,8 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-qstatistic'
-import 'quasar-ui-qstatistic/dist/index.css'
+import Plugin from '@junvary/quasar-ui-qstatistic'
+import '@junvary/quasar-ui-qstatistic/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -65,10 +65,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-qstatistic/dist/index.css"></style>
+<style src="@junvary/quasar-ui-qstatistic/dist/index.css"></style>
 
 <script>
-import { Component as QStatistic } from 'quasar-ui-qstatistic'
+import { Component as QStatistic } from '@junvary/quasar-ui-qstatistic'
 
 export default {
   
@@ -90,16 +90,16 @@ Add the following tag(s) after the Quasar ones:
 ```html
 <head>
   <!-- AFTER the Quasar stylesheet tags: -->
-  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-qstatistic/dist/index.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/@junvary/quasar-ui-qstatistic/dist/index.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qstatistic/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@junvary/quasar-ui-qstatistic/dist/index.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-qstatistic/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/@junvary/quasar-ui-qstatistic/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 # Setup

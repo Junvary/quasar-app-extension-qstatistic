@@ -6,7 +6,7 @@
 
                 <q-toolbar-title>
                     <a href="https://github.com/Junvary/quasar-app-extension-qstatistic">
-                        quasar-ui-qstatistic v{{ version }}
+                        @junvary/quasar-ui-qstatistic v{{ version }}
                     </a>
                 </q-toolbar-title>
 
